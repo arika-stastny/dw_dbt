@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: samssales_landing
+    database: arikastastny
+    schema: samsubs_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: orders
+      - name: orderdetails
+      - name: porduct
+      - name: sandwich
+      - name: store
+  - name: webtraffic_landing
+    database: arikastastny
+    schema: samssubs_source
+    tables:
+      - name: web_traffic_events

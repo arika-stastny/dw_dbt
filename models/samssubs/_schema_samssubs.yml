@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: ss_dim_customer
+    description: "Sam's Subs Customer Dimension"
+  - name: ss_dim_date
+    description: "Sam's Subs Date Dimension"
+  - name: ss_dim_employee
+    description: "Sam's Subs Employee Dimension"
+  - name: ss_dim_event
+    description: "Sam's Subs Web Event Dimension"
+  - name: ss_dim_order
+    description: "Sam's Subs Order Dimension"
+  - name: ss_dim_page
+    description: "Sam's Subs Web Page Dimension"
+  - name: ss_dim_product
+    description: "Sam's Subs Product Dimension"
+  - name: ss_dim_store
+    description: "Sam's Subs Store Dimension"
+  - name: ss_dim_traffic
+    description: "Sam's Subs Web Traffic Dimension"
+  - name: fact_subsales
+    description: "Sam's Subs Sales Fact"
+  - name: fact_webtraffic
+    description: "Sam's Subs Web Traffic Fact"

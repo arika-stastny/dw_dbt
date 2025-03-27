@@ -9,7 +9,7 @@ with cte_date as (
 )
 
 SELECT
-{{ dbt_utils.generate_surrogate_key(['date_day']) }} as date_key,
+date_day as date_key,
 date_day,
 day_of_week,
 month_of_year,
